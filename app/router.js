@@ -7,7 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('shops', function() {
+  this.route('shops',{path: '/'}, function() {
     this.route('shop', {path: '/:shop_id'});
   });
 });
