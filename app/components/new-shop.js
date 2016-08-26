@@ -8,7 +8,6 @@ export default Ember.Component.extend({
         description: this.get('description'),
         image: this.get('image')
       };
-      console.log(params);
       this.sendAction('saveShop', params);
     },
   }

@@ -1,3 +1,7 @@
+
+body{
+  background-color: yellow;
+}
 .height-control {
   height: 1000px;
 }
@@ -6,6 +10,7 @@
 }
 .shop-container {
   background-color: orange;
+  overflow: auto;
 }
 
 .shop-tile {
@@ -28,4 +33,29 @@
 
 .header {
   text-align: center;
+}
+
+.favorites {
+  width: 200px;
+  height: 200px;
+  border: 10px solid;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: -30px;
+  border-radius: 50%;
+  text-align: center;
+
+}
+
+.big {
+  position: absolute;
+  top: 10px;
+  right: 13px;
+  font-size: 12em;
+  color: red;
+}
+
+a {
+  color: black;
 }

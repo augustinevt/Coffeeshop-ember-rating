@@ -9,12 +9,12 @@ export default Ember.Component.extend({
         rating: parseInt(this.get('rating')),
         image: "none",
         shop: this.get('shop'),
+        timestamp: new Date("YYYY/MM/DD"),
       };
-      console.log(params);
       this.sendAction('saveReview', params);
-      // this.set('author', '');
-      // this.set('body', '');
-      // this.set('rating', '');
+      this.set('author', '');
+      this.set('body', '');
+      this.set('rating', '');
     },
   }
 });

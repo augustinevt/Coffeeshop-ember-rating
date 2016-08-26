@@ -1,7 +1,8 @@
-# Ember-rating
+# CoffeeShop Rater!
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+### by August von Trapp
+
+This is an app that allows the user to add coffeeshops to a list that may be reviewed by other users.
 
 ## Prerequisites
 
@@ -51,3 +52,23 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Technologies
+
+
+  * ember
+  * node
+  * firebase
+  * javascript
+  * html
+  * css
+
+## Issues
+
+  there are no known bugs
+
+## contact
+  please contact me at augustvontrapp@gmail.com
+
+### License
+
+  Copyright (c) 2016 August von Trapp

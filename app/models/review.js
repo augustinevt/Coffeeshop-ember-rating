@@ -6,4 +6,5 @@ export default DS.Model.extend({
   image: DS.attr(),
   shop: DS.belongsTo('shop', {async: true}),
   rating: DS.attr(),
+  timestamp: DS.attr(),
 });

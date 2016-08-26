@@ -1,0 +1,9 @@
+<div class="row">
+    {{#each model as |shop|}}
+    <div class="col-sm-6">
+      {{#link-to 'shops.shop' shop.id}}
+      {{shop-tile shop=shop}}
+      {{/link-to}}
+    </div>
+    {{/each}}
+</div>

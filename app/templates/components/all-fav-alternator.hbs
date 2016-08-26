@@ -1,0 +1,7 @@
+<button {{action 'switchFromFavorites'}}>all</button>
+<button {{action 'switchToFavorites'}}>favorites</button>
+{{#if showFavorites}}
+  {{list-favorites}}
+{{else}}
+  {{list-all model=model}}
+{{/if}}
