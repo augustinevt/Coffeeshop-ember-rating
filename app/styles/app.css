@@ -1,0 +1,31 @@
+.height-control {
+  height: 1000px;
+}
+.shops-list {
+  background-color: purple;
+}
+.shop-container {
+  background-color: orange;
+}
+
+.shop-tile {
+  background-color: red;
+  height: 150px;
+}
+
+.new-shop {
+  background-color: pink;
+  margin-top: 30px;
+}
+
+.hero {
+  width: 80%;
+}
+
+.img-center {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
